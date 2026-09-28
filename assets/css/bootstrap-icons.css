@@ -1,0 +1,4 @@
+/* Offline icon fallback for the icons used by this project. */
+.bi{display:inline-block;font-style:normal;line-height:1}
+.bi::before{display:inline-block}
+.bi-buildings::before{content:"⌂"}.bi-building-check::before{content:"▥"}.bi-people::before{content:"♙"}.bi-arrow-right::before{content:"→"}.bi-chevron-left::before{content:"‹"}.bi-chevron-right::before{content:"›"}.bi-compass::before{content:"◉"}.bi-award::before{content:"✦"}.bi-heart::before{content:"♥"}.bi-house-check::before{content:"⌂"}.bi-rulers::before{content:"⌁"}.bi-hand-thumbs-up::before{content:"✓"}.bi-leaf::before{content:"❧"}.bi-geo-alt::before{content:"⌖"}.bi-graph-up-arrow::before{content:"↗"}.bi-stars::before{content:"✦"}.bi-house::before{content:"⌂"}.bi-telephone::before{content:"☎"}.bi-envelope::before{content:"✉"}.bi-facebook::before{content:"f"}.bi-instagram::before{content:"◎"}.bi-linkedin::before{content:"in"}.bi-youtube::before{content:"▶"}.bi-arrow-up::before{content:"↑"}
