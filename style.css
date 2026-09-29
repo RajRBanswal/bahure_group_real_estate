@@ -945,27 +945,494 @@
    transition: var(--bs-navbar-toggler-transition);
  }
 
-.socials a i.fb:hover {
-  color: blue;
-  transition: .1s;
-}
+ .socials a i.fb:hover {
+   color: blue;
+   transition: .1s;
+ }
 
-.socials a i.it:hover {
-  color: rgb(216, 48, 48);
-  transition: .1s;
-}
+ .socials a i.it:hover {
+   color: rgb(216, 48, 48);
+   transition: .1s;
+ }
 
-.socials a i.li:hover {
-  color: blue;
-  transition: .1s;
-}
+ .socials a i.li:hover {
+   color: blue;
+   transition: .1s;
+ }
 
-.socials a i.tw:hover {
-  color: skyblue;
-  transition: .1s;
-}
+ .socials a i.tw:hover {
+   color: skyblue;
+   transition: .1s;
+ }
 
-.socials a i.yt:hover {
-  color: red;
-  transition: .1s;
-}
+ .socials a i.yt:hover {
+   color: red;
+   transition: .1s;
+ }
+
+
+
+ /* Rohan CSS */
+
+ /* CAREER SECTION START */
+ /* ================= CAREERS ================= */
+
+ .careers-section {
+   font-family: Arial, sans-serif;
+ }
+
+ /* HERO */
+
+ .career-hero {
+   background: #081d2d;
+   /* background-image: url(./assets/images/images/career-mainpage.png1.png); */
+   color: #ffffff;
+   padding: 110px 0;
+ }
+
+ .career-label,
+ .section-heading span,
+ .career-cta span {
+   color: #D8B365;
+   font-size: 14px;
+   font-weight: 700;
+   letter-spacing: 3px;
+ }
+
+ .career-hero h1 {
+   font-family: Georgia, serif;
+   font-size: 70px;
+   line-height: 1.05;
+   margin: 25px 0;
+ }
+
+ .career-hero p {
+   color: #d9e0e3;
+   max-width: 600px;
+   font-size: 17px;
+   line-height: 1.8;
+ }
+
+ .career-btn {
+   display: inline-block;
+   background: #D8B365;
+   color: #172832;
+   padding: 16px 25px;
+   margin-top: 25px;
+   text-decoration: none;
+   font-weight: 700;
+ }
+
+ .career-highlight {
+   border-left: 1px solid #D8B365;
+   padding-left: 45px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+ }
+
+ .career-highlight span {
+   font-size: 18px;
+   letter-spacing: 5px;
+   color: #d9e0e3;
+ }
+
+ .career-highlight strong {
+   font-family: Georgia, serif;
+   font-size: 55px;
+   color: #ffffff;
+ }
+
+
+ /* WHY JOIN */
+
+ .why-career {
+   background: #F7F5F0;
+   padding: 100px 0;
+ }
+
+ .section-heading {
+   margin-bottom: 55px;
+ }
+
+ .section-heading h2 {
+   color: #fff;
+   font-family: Georgia, serif;
+   font-size: 52px;
+   line-height: 1.05;
+   margin-top: 15px;
+ }
+
+ .career-card {
+   background: #ffffff;
+   padding: 35px;
+   min-height: 260px;
+   border-top: 3px solid #D8B365;
+ }
+
+ .career-number {
+   color: #D8B365;
+   font-size: 15px;
+   font-weight: bold;
+   margin-bottom: 30px;
+ }
+
+ .career-card h3 {
+   color: #172832;
+   font-family: Georgia, serif;
+   font-size: 25px;
+ }
+
+ .career-card p {
+   color: #65727a;
+   line-height: 1.7;
+ }
+
+
+ /* OPENINGS */
+
+ .openings-section {
+   background: #ffffff;
+   padding: 100px 0;
+ }
+
+ .job-list {
+   border-top: 1px solid #ddd;
+ }
+
+ .job-item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .job-item h3 {
+   font-family: Georgia, serif;
+   color: #172832;
+   margin-bottom: 8px;
+ }
+
+ .job-item p {
+   margin: 0;
+   color: #78838a;
+ }
+
+ .job-item a {
+   color: #172832;
+   font-weight: 700;
+   text-decoration: none;
+ }
+
+ .job-item a:hover {
+   color: #D8B365;
+ }
+
+
+ /* CTA */
+
+ .career-cta {
+   background: #F7F5F0;
+   color: black;
+   padding: 110px 0;
+ }
+
+ .career-cta h2 {
+   font-family: Georgia, serif;
+   font-size: 60px;
+   line-height: 1.1;
+   margin: 20px 0;
+ }
+
+ .career-cta p {
+   color: #78838a;
+   font-size: 17px;
+ }
+
+ /* CONTACT SECTION */
+ :root {
+   --navy: #0B2940;
+   --gold: #DDB45F;
+   --ivory: #F7F5F0;
+   --slate: #526273;
+   --border: #D8DDE2;
+ }
+
+ body {
+   background-color: var(--ivory);
+   color: var(--navy);
+   font-family: "DM Sans", sans-serif;
+ }
+
+ /* ---------- Headings ---------- */
+
+ .serif {
+   font-family: "Playfair Display", serif;
+ }
+
+ .section-label {
+   color: var(--gold);
+   letter-spacing: 4px;
+   font-size: 13px;
+   font-weight: 700;
+ }
+
+ .main-title {
+   font-family: "Playfair Display", serif;
+   font-size: clamp(2.2rem, 5vw, 4rem);
+   font-weight: 600;
+   color: var(--navy);
+ }
+
+ .subtitle {
+   color: var(--slate);
+   max-width: 720px;
+   margin: auto;
+   line-height: 1.8;
+ }
+
+ /* ---------- Main Contact ---------- */
+
+ .contact-section {
+   padding: 90px 0;
+ }
+
+ /* ---------- Image ---------- */
+
+ .property-image {
+   height: 100%;
+   min-height: 620px;
+   object-fit: cover;
+   border-radius: 12px;
+ }
+
+ .image-wrapper {
+   position: relative;
+   height: 100%;
+ }
+
+ .image-overlay {
+   position: absolute;
+   inset: 0;
+   border-radius: 12px;
+   background: linear-gradient(to top,
+       rgba(5, 20, 32, 0.8),
+       transparent 55%);
+ }
+
+ .image-content {
+   position: absolute;
+   bottom: 35px;
+   left: 35px;
+   right: 35px;
+   color: white;
+ }
+
+ .image-content h3 {
+   font-family: "Playfair Display", serif;
+   font-size: 30px;
+ }
+
+ .gold-line {
+   width: 55px;
+   height: 3px;
+   background-color: var(--gold);
+   margin-top: 15px;
+ }
+
+ /* ---------- Cards ---------- */
+
+ .contact-card {
+   background: #ffffff;
+   border: 1px solid var(--border);
+   border-radius: 12px;
+   padding: 35px;
+   height: 100%;
+ }
+
+ .card-title {
+   font-family: "Playfair Display", serif;
+   color: var(--navy);
+   font-size: 30px;
+   margin-bottom: 30px;
+ }
+
+ /* ---------- Contact Information ---------- */
+
+ .contact-item {
+   display: flex;
+   gap: 16px;
+   margin-bottom: 25px;
+ }
+
+ .contact-icon {
+   min-width: 42px;
+   height: 42px;
+   background: #F1E4C5;
+   color: var(--navy);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+ }
+
+ .contact-item h6 {
+   margin-bottom: 4px;
+   font-weight: 700;
+   color: var(--navy);
+ }
+
+ .contact-item p {
+   margin: 0;
+   color: var(--slate);
+   line-height: 1.6;
+ }
+
+ /* ---------- Highlight Box ---------- */
+
+ .highlight-box {
+   background: #FAF5E8;
+   border: 1px solid #EAD9AF;
+   border-radius: 8px;
+   padding: 24px;
+   margin-top: 30px;
+ }
+
+ .highlight-box h5 {
+   font-family: "Playfair Display", serif;
+   color: var(--navy);
+ }
+
+ .highlight-box p {
+   color: var(--slate);
+   line-height: 1.7;
+   font-size: 14px;
+ }
+
+ .explore-link {
+   color: #B8872D;
+   font-weight: 700;
+   text-decoration: none;
+ }
+
+ .explore-link:hover {
+   color: var(--navy);
+ }
+
+ /* ---------- Form ---------- */
+
+ .form-label {
+   color: var(--navy);
+   font-size: 14px;
+   font-weight: 600;
+   margin-bottom: 8px;
+ }
+
+ .form-control,
+ .form-select {
+   min-height: 52px;
+   border: 1px solid var(--border);
+   border-radius: 7px;
+   padding: 12px 15px;
+   color: var(--navy);
+ }
+
+ textarea.form-control {
+   min-height: 130px;
+   resize: vertical;
+ }
+
+ .form-control:focus,
+ .form-select:focus {
+   border-color: var(--gold);
+   box-shadow: 0 0 0 0.2rem rgba(221, 180, 95, 0.15);
+ }
+
+ .form-control::placeholder {
+   color: #9AA5AF;
+ }
+
+ /* ---------- Button ---------- */
+
+ .btn-gold {
+   background-color: var(--gold);
+   border: 1px solid var(--gold);
+   color: var(--navy);
+   min-height: 52px;
+   font-weight: 700;
+   border-radius: 7px;
+   transition: 0.3s ease;
+ }
+
+ .btn-gold:hover {
+   background-color: var(--navy);
+   border-color: var(--navy);
+   color: white;
+ }
+
+ /* ---------- Bottom Section ---------- */
+
+ .visit-section {
+   padding: 30px 0 90px;
+ }
+
+ .map-box {
+   height: 300px;
+   border-radius: 12px;
+   overflow: hidden;
+   border: 1px solid var(--border);
+ }
+
+ .map-box iframe {
+   width: 100%;
+   height: 100%;
+   border: 0;
+ }
+
+ /* ---------- Responsive ---------- */
+
+ @media (max-width: 991px) {
+
+   .contact-section {
+     padding: 60px 0;
+   }
+
+   .property-image {
+     min-height: 450px;
+   }
+
+   .contact-card {
+     padding: 28px;
+   }
+ }
+
+ @media (max-width: 576px) {
+
+   .contact-section {
+     padding: 45px 0;
+   }
+
+   .property-image {
+     min-height: 400px;
+   }
+
+   .contact-card {
+     padding: 22px;
+   }
+
+   .card-title {
+     font-size: 26px;
+   }
+
+   .main-title {
+     font-size: 2.2rem;
+   }
+
+   .image-content {
+     left: 25px;
+     right: 25px;
+     bottom: 25px;
+   }
+ }
