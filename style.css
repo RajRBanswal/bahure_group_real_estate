@@ -1065,7 +1065,7 @@ body {
  }
 
  .section-heading h2 {
-   color: #c01616;
+      color: var(--bs-heading-color);
   font-family: Georgia, "Times New Roman", serif;
    font-size: 52px;
    line-height: 1.05;
