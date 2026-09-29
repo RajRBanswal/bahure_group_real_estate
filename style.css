@@ -102,6 +102,11 @@
    position: relative;
  }
 
+ /* .nav-link:hover,
+ .nav-link.active {
+   color: var(--gold) !important;
+ } */
+
  .nav-link.active:after {
    content: "";
    position: absolute;
