@@ -37,11 +37,11 @@
   }
 
   .brand-text {
-    font-family: Georgia, "Times New Roman", serif;
-    color: #fff;
-    font-size: 17px;
-    letter-spacing: 1.5px;
-    line-height: .8;
+   font-family: Georgia, "Times New Roman", serif;
+   color: #fff;
+   font-size: 17px;
+   letter-spacing: 1.5px;
+   line-height: .8;
   }
 
   .brand-text small {
@@ -125,6 +125,7 @@
   }
 
   .page-header h1 {
+     font-family: Georgia, "Times New Roman", serif;
     font-size: 50px;
     font-weight: bold;
   }
@@ -189,6 +190,7 @@
   }
 
   .final-cta h2 {
+     font-family: Georgia, "Times New Roman", serif;
     margin: 0;
     font-size: 38px;
   }
@@ -196,6 +198,7 @@
   .final-cta p:not(.eyebrow) {
     color: #c8d1d6;
     margin: 5px 0 0;
+  
   }
 
 
@@ -211,9 +214,11 @@
   .footer a {
     color: #aebac1;
     font-size: 16px;
+   
   }
 
   .footer h5 {
+     font-family: Georgia, "Times New Roman", serif;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
