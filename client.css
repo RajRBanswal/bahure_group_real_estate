@@ -573,3 +573,42 @@ footer a:hover {
    }
  }
 
+ /* additional css by aryan */
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x) 0.75rem;
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: rgb(1 1 1);
+    background-color: #081d2d;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+  }
+
+  .socials a i.fb:hover {
+    color: blue;
+    transition: .1s;
+  }
+
+  .socials a i.it:hover {
+    color: rgb(216, 48, 48);
+    transition: .1s;
+  }
+
+  .socials a i.li:hover {
+    color: blue;
+    transition: .1s;
+  }
+
+  .socials a i.tw:hover {
+    color: skyblue;
+    transition: .1s;
+  }
+
+  .socials a i.yt:hover {
+    color: red;
+    transition: .1s;
+  }
+
+
