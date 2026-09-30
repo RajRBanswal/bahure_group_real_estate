@@ -70,12 +70,12 @@
  }
 
  .brand-text {
-  font-family: Georgia, "Times New Roman", serif;
+   font-family: Georgia, "Times New Roman", serif;
    color: #fff;
    font-size: 17px;
    letter-spacing: 1.5px;
    line-height: .8;
- } 
+ }
 
  .brand-text small {
    display: block;
@@ -982,7 +982,7 @@
  /* CAREER SECTION START */
  /* ================= CAREERS ================= */
 
-body {
+ body {
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
    color: var(--text);
@@ -990,7 +990,7 @@ body {
  }
 
 
- 
+
  /* HERO */
 
  .career-hero {
@@ -1017,7 +1017,7 @@ body {
  }
 
  .career-hero p {
-  font-family: Georgia, "Times New Roman", serif;
+   font-family: Georgia, "Times New Roman", serif;
    color: #fff;
    font-size: 17px;
    letter-spacing: 1.5px;
@@ -1050,7 +1050,7 @@ body {
 
  .career-highlight strong {
    font-family: Georgia, serif;
-   font-size: 55px;
+   font-size: 45px;
    color: #ffffff;
  }
 
@@ -1067,8 +1067,8 @@ body {
  }
 
  .section-heading h2 {
-      color: var(--bs-heading-color);
-  font-family: Georgia, "Times New Roman", serif;
+   color: var(--bs-heading-color);
+   font-family: Georgia, "Times New Roman", serif;
    font-size: 52px;
    line-height: 1.05;
    margin-top: 15px;
@@ -1090,12 +1090,12 @@ body {
 
  .career-card h3 {
    color: #172832;
-  font-family: Georgia, "Times New Roman", serif;
+   font-family: Georgia, "Times New Roman", serif;
    font-size: 25px;
  }
 
  .career-card p {
-  font-family: Georgia, "Times New Roman", serif;
+   font-family: Georgia, "Times New Roman", serif;
    color: #fff;
    font-size: 17px;
    letter-spacing: 1.5px;
@@ -1180,7 +1180,7 @@ body {
  }
 
  body {
-     margin: 0;
+   margin: 0;
    font-family: Arial, Helvetica, sans-serif;
    color: var(--text);
    background: var(--cream);
@@ -1190,7 +1190,7 @@ body {
  /* ---------- Headings ---------- */
 
  .serif {
-  font-family: Georgia, "Times New Roman", serif;
+   font-family: Georgia, "Times New Roman", serif;
  }
 
  .section-label {
@@ -1307,7 +1307,7 @@ body {
  }
 
  .contact-item p {
-  font-family: Georgia, "Times New Roman", serif;
+   font-family: Georgia, "Times New Roman", serif;
    color: #fff;
    font-size: 17px;
    letter-spacing: 1.5px;
@@ -1332,7 +1332,7 @@ body {
  .highlight-box p {
    color: var(--slate);
    font-family: Georgia, "Times New Roman", serif;
-   
+
    font-size: 17px;
    letter-spacing: 1.5px;
    line-height: .8;
@@ -1462,5 +1462,161 @@ body {
      left: 25px;
      right: 25px;
      bottom: 25px;
+   }
+ }
+
+ /* -------- Responsive Additional CSS Career Page by name -------- */
+
+
+ @media(max-width:991px) {
+   .bahure-nav {
+     padding: 10px 0;
+   }
+
+   .hero {
+     height: 700px;
+   }
+
+   .hero h1 {
+     font-size: 4rem;
+   }
+
+   .about-section .about-visual {
+     padding-right: 0;
+   }
+
+   .about-values {
+     position: relative;
+     right: auto;
+     top: auto;
+     transform: none;
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+   }
+
+   .about-values div {
+     border-right: 1px solid #eee;
+     border-bottom: 0;
+   }
+
+   .split-content {
+     padding: 35px;
+   }
+
+   .feature-grid {
+     grid-template-columns: repeat(2, 1fr);
+   }
+
+   .feature:nth-child(3n+1) {
+     border-left: 1px solid #ddd;
+   }
+
+   .feature:nth-child(2n+1) {
+     border-left: 0;
+   }
+
+   .location-cards {
+     grid-template-columns: repeat(2, 1fr);
+   }
+ }
+
+ @media(max-width:767px) {
+   .hero {
+     height: 650px;
+     min-height: 650px;
+   }
+
+   .hero-copy {
+     padding-top: 60px;
+   }
+
+   .hero h1 {
+     font-size: 3.25rem;
+   }
+
+   .hero-sub {
+     font-size: 13px;
+   }
+
+   .stat-item {
+     justify-content: flex-start;
+     padding: 18px 25px;
+     border-right: 0;
+     border-bottom: 1px solid rgba(255, 255, 255, .15);
+   }
+
+   .section {
+     padding: 50px 0;
+   }
+
+   .about-visual>img {
+     height: 350px;
+   }
+
+   .about-values {
+     grid-template-columns: 1fr;
+   }
+
+   .about-values div {
+     border-right: 0;
+     border-bottom: 1px solid #eee;
+   }
+
+   .feature-grid {
+     grid-template-columns: 1fr;
+   }
+
+   .feature,
+   .feature:nth-child(3n+1),
+   .feature:nth-child(2n+1) {
+     border-left: 0;
+     border-bottom: 1px solid #ddd;
+   }
+
+   .feature:last-child {
+     border-bottom: 0;
+   }
+
+   .split-lifestyle {
+     grid-template-columns: 1fr;
+   }
+
+   .split-card {
+     height: 430px;
+   }
+
+   .amenity-grid,
+   .location-cards {
+     grid-template-columns: 1fr;
+   }
+
+   .spotlight-img {
+     height: 300px;
+   }
+
+   .spotlight h2 {
+     font-size: 42px;
+   }
+
+   .timeline {
+     gap: 15px;
+   }
+
+   .timeline strong {
+     font-size: 17px;
+   }
+
+   .footer-bottom {
+     flex-direction: column;
+     gap: 8px;
+   }
+
+   .nav-cta {
+     margin-bottom: 12px;
+   }
+
+   .final-cta h2 {
+     font-size: 30px;
    }
  }
