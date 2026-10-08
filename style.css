@@ -1096,7 +1096,7 @@
 
  .career-card p {
    font-family: Georgia, "Times New Roman", serif;
-   color: #fff;
+   /* color: ; */
    font-size: 17px;
    letter-spacing: 1.5px;
    line-height: .8;
@@ -1130,7 +1130,7 @@
 
  .job-item p {
    font-family: Georgia, "Times New Roman", serif;
-   color: #fff;
+   /* color: #fff; */
    font-size: 17px;
    letter-spacing: 1.5px;
    line-height: .8;
@@ -1164,7 +1164,7 @@
 
  .career-cta p {
    font-family: Georgia, "Times New Roman", serif;
-   color: #fff;
+   /* color: #fff; */
    font-size: 17px;
    letter-spacing: 1.5px;
    line-height: .8;
