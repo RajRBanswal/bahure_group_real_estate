@@ -996,7 +996,7 @@
  .career-hero {
    background: #081d2d;
    color: #ffffff;
-   padding: 71px 0;
+   padding: 55px 0;
  }
 
  .career-label,
@@ -2669,7 +2669,7 @@
  @media (max-width: 767px) {
 
    .contact-hero {
-     padding: 65px 0;
+     padding: 120px 0;
    }
 
    .contact-hero h1 {
