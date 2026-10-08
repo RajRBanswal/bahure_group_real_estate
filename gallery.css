@@ -1087,7 +1087,7 @@ a {
 .gallery-hero {
     background: #081d2d;
     color: #ffffff;
-    padding: 53px 0;
+    padding: 100px 0;
 }
 
 .gallery-label {
@@ -1168,7 +1168,7 @@ a {
 @media (max-width: 767px) {
 
     .gallery-hero {
-        padding: 70px 0;
+        padding: 120px 0;
     }
 
     .gallery-hero h1 {
